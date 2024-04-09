@@ -45,7 +45,7 @@ def on_click(event):
     y = int((start_y + L/2)/dx)
 
     # Initialverdier
-    u[y, x] = 1.0
+    u[y, x] = 0.3
     u_t[y, x] = 0.0
 
 
